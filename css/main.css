@@ -1,0 +1,19 @@
+body {   
+/* Местоположение фоновой картинки */   background-image: url();      
+/* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;      
+/* Фон не повторяется */   background-repeat: no-repeat;      
+/* Фон зафиксирован в области просмотра и потому не двигается, когда высота контента превышает высоту изображения */   background-attachment: fixed;      
+/* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+/* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646; }
+
+.selected {
+	border: 3px solid #D81B60;
+	padding: 5px;
+	margin: 2px 0px;
+}
+
+.selected-2 {
+	border: 5px solid #D81B60;
+	padding: 10px ;
+	margin: 4px 30px;
+}
